@@ -11,9 +11,11 @@ image:
 
 ## La Alquimia de Datos: Transformando Ruido en Inteligencia
 
-En la antigua práctica de la alquimia, el Athanor era el horno de destilación donde los maestros separaban las impurezas del metal base para obtener oro. En el contexto de la ciberseguridad moderna, este mismo principio se aplica cuando desplegamos honeypots: exponemos deliberadamente sistemas señuelo para capturar tráfico hostil y, mediante un proceso riguroso de análisis forense, destilamos inteligencia procesable desde el ruido constante de internet.
+En la antigua práctica de la alquimia, el Athanor era el horno de destilación donde los maestros separaban las impurezas del metal base para obtener oro. En la ciberseguridad moderna, este mismo principio se aplica cuando desplegamos honeypots: exponemos deliberadamente sistemas señuelo para capturar tráfico hostil y, mediante un proceso riguroso de análisis forense, destilamos inteligencia procesable desde el ruido constante de internet.
 
-Project Athanor nace como un experimento controlado para medir la hostilidad de la nube pública. La pregunta fundamental era simple pero reveladora: ¿cuánto tiempo tarda una dirección IP recién expuesta en recibir su primer ataque? La respuesta resultó ser dramática y aleccionadora.
+Project Athanor nace como un experimento controlado para medir la hostilidad de la nube pública. La pregunta era simple pero reveladora: ¿cuánto tiempo tarda una dirección IP recién expuesta en recibir su primer ataque? La respuesta resultó ser dramática y aleccionadora.
+
+![Athanor_furnance](/home/dust115/Documents/fennek115.github.io/assets/img/2026-01-28-project-athanor/athanor_furnance.jpg))
 
 ## La Infraestructura: Especificaciones y el Colapso Inevitable
 
