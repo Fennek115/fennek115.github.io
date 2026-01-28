@@ -2,13 +2,12 @@
 layout: post
 title: "Project Athanor: 10 Minutos para el Colapso - Análisis de un Honeypot en Azure"
 date: 2026-01-28 12:00:00 -0300
-categories: [Ciberseguridad, Blue Team, Threat Intelligence]
-tags: [Honeypot, T-Pot, Azure, Malware Analysis, Forensics, Suricata, Cowrie]
-author: Dust115
+categories: [Ciberseguridad, Blue Team]
+tags: [Honeypot, T-Pot, Azure, Malware Analysis, Forensics, Suricata, Cowrie, Threat Intelligence]
+image:
+  path: /assets/img/2026-01-28-project-athanor/elastic_dashboard.png
+  alt: Dashboard de Kibana mostrando ataques globales
 ---
-
-![Dashboard General](/assets/img/2026-01-28-project-athanor/elastic_dashboard.png)
-*Estado del Dashboard en Kibana tras la estabilización del sistema y la recolección de eventos.*
 
 ## 1. Introducción: La Hostilidad del Ruido de Fondo
 
