@@ -15,7 +15,7 @@ En la antigua práctica de la alquimia, el Athanor era el horno de destilación 
 
 Project Athanor nace como un experimento controlado para medir la hostilidad de la nube pública. La pregunta era simple pero reveladora: ¿cuánto tiempo tarda una dirección IP recién expuesta en recibir su primer ataque? La respuesta resultó ser dramática y aleccionadora.
 
-![Athanor_furnance](/home/dust115/Documents/fennek115.github.io/assets/img/2026-01-28-project-athanor/athanor_furnance.jpg))
+![Athanor_furnance](/assets/img/2026-01-28-project-athanor/athanor_furnance.jpg))
 
 ## La Infraestructura: Especificaciones y el Colapso Inevitable
 
