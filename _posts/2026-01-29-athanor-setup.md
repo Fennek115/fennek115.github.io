@@ -39,7 +39,7 @@ Este proceso genera un par de claves: la privada (`azure_honeypot`) que permanec
 
 Durante la creación de la máquina virtual en el portal de Azure, en la sección de configuración de cuenta de administrador, se seleccionó la opción de utilizar clave pública SSH existente, pegando el contenido del archivo `azure_honeypot.pub`. Esta configuración asegura que únicamente quien posea la clave privada correspondiente pueda establecer sesiones SSH autenticadas, independientemente del conocimiento de credenciales de usuario y contraseña.
 
-![Configuración de claves SSH en Azure Portal](/assets/img/2026-01-28-athanor-setup/azure_ssh_config.png)
+![Configuración de claves SSH en Azure Portal](/assets/img/2026-01-29-athanor-setup/azure_ssh_config.png)
 
 ## Network Security Groups: Exponiendo el Perímetro
 
@@ -102,7 +102,7 @@ T-Pot ofrece múltiples perfiles predefinidos según el caso de uso y los recurs
 
 Para Project Athanor, seleccionamos el perfil **HIVE (H)** para maximizar la diversidad de datos capturados. Esta decisión implica un compromiso: mayor cobertura a cambio de mayor consumo de recursos, lo cual posteriormente resultaría en el colapso documentado en nuestro análisis forense.
 
-![Selección de perfil durante instalación de T-Pot](/assets/img/2026-01-28-athanor-setup/tpot_installation_profile.png)
+![Selección de perfil durante instalación de T-Pot](/assets/img/2026-01-29-athanor-setup/tpot_installation_profile.png)
 
 ### Configuración de Credenciales de Administración
 
@@ -165,7 +165,7 @@ La página de inicio de sesión solicita las credenciales configuradas durante l
 
 **Dashboards Especializados**: Interfaces dedicadas para cada honeypot individual (Cowrie para SSH, Dionaea para protocolos binarios, Suricata para análisis de red).
 
-![Dashboard principal de T-Pot tras primer acceso](/assets/img/2026-01-28-athanor-setup/tpot_first_access.png)
+![Dashboard principal de T-Pot tras primer acceso](/assets/img/2026-01-29-athanor-setup/tpot_first_access.png)
 
 ## El Athanor Está Encendido: Primeras Observaciones
 
