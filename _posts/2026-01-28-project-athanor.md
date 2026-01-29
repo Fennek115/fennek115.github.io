@@ -240,11 +240,10 @@ El targeting de puerto 8728 (RouterOS) es especialmente significativo: MikroTik 
 En análisis forense digital, la cadena de custodia es fundamental para mantener la integridad y admisibilidad de la evidencia. Aunque este proyecto es académico, se aplicaron principios forenses profesionales:
 
 **Procedimiento de Recolección:**
-1. Captura de snapshots del sistema en estado comprometido
-2. Extracción de logs sin modificación mediante `docker cp` en modo read-only
-3. Hash SHA-256 de todos los archivos extraídos para verificación de integridad
-4. Anonimización de datos sensibles (IPs propias, credenciales internas)
-5. Compresión y almacenamiento en múltiples copias geográficamente distribuidas
+1. Extracción de logs sin modificación
+2. Hash SHA-256 de todos los archivos extraídos para verificación de integridad
+3. Anonimización de datos sensibles (IPs propias, credenciales internas)
+5. Compresión y almacenamiento
 
 **Estructura de Artefactos Preservados:**
 
@@ -263,7 +262,7 @@ En análisis forense digital, la cadena de custodia es fundamental para mantener
 
 El dataset completo incluye logs JSON sin procesar de todos los honeypots, permitiendo análisis retrospectivo con diferentes herramientas. La estructura preserva metadatos originales (timestamps, IDs de sesión) necesarios para reconstruir cronologías de ataque.
 
-El dataset anonimizado está disponible para investigación [Link Placeholder].
+El dataset anonimizado está disponible para investigación [Descargar aquí](https://github.com/Fennek115/fennek115.github.io/releases/download/athanor/project-athanor-artifacts.zip).
 
 ## Lecciones Defensivas: Fortificación y Mitigación
 
@@ -339,4 +338,4 @@ Como dijo el alquimista: el proceso de destilación requiere paciencia, contenci
 
 ---
 
-*Hash del Dataset: `SHA256:placeholder_hash_here`*
+*Hash del Dataset: `SHA256:171704c359eeea77ff28ce9581fec9bdd1b5166bcc9636b8b631393003a8a6f0`*
