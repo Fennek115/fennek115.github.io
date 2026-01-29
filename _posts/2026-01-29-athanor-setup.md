@@ -5,7 +5,7 @@ date: 2026-01-28 18:00:00 -0300
 categories: [Ciberseguridad, Blue Team]
 tags: [Azure, Honeypot, T-Pot, DevSecOps, Infrastructure, SSH]
 image:
-  path: /assets/img/2026-01-28-athanor-setup/tpot_dashboard_main.png
+  path: /assets/img/2026-01-29-athanor-setup/tpot_dashboard_main.png
   alt: Dashboard principal de T-Pot mostrando la interfaz de administración
 ---
 
