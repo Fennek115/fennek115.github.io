@@ -18,7 +18,7 @@ Para mi segundo proyecto de laboratorio, decidí implementar una pipeline **DevS
 
 Para probar la eficacia del escáner, creé una aplicación en Flask diseñada intencionalmente para ser insegura. Como se ve en mi repositorio, la premisa es simple: el código se crea, se analiza y se despliega, buscando la resiliencia ante errores y ataques.
 
-![synk-before](/assets/img/2026-01-30-proyecto-ouroboros/synk-before.png)
+![synk-before](/assets/img/2026-01-30-proyecto-ouroboros/snyk-before.png)
 
 El repositorio contiene:
 * `app.py`: Una API con vulnerabilidades de inyección y deserialización.
