@@ -7,7 +7,7 @@ tags: [cybersecurity, alchemy, ci-cd, python]
 ---
 
 En la alquimia, el **Ouroboros** simboliza el ciclo eterno de renovación. En el desarrollo de software moderno, este ciclo es el CI/CD (Integración y Despliegue Continuo). Pero un ciclo infinito de código roto o inseguro solo acelera el desastre.
-![Ouroboros simbolo](/assets/img/2026-01-30-proyecto-ouroboros/uroboros.jpg]
+![Ouroboros simbolo](/assets/img/2026-01-30-proyecto-ouroboros/uroboros.jpg)
 
 Para mi segundo proyecto de laboratorio, decidí implementar una pipeline **DevSecOps** real. El objetivo: automatizar la detección de "impurezas" (vulnerabilidades) antes de que el código toque producción, aplicando la filosofía *Shift Left*.
 
