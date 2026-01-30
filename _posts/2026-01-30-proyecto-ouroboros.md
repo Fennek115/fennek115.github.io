@@ -95,7 +95,8 @@ Para remediar las vulnerabilidades críticas detectadas por Snyk, apliqué una e
 El análisis persistente de Snyk me alertó de un riesgo residual de **XSS (Cross-Site Scripting)** al devolver la salida del comando directamente. Para solucionarlo, estandaricé todas las respuestas a JSON.
 
 ### `app.py` (Versión Final Segura)
-
+```python
+```
 ```python
 import subprocess
 import json
@@ -151,6 +152,7 @@ if __name__ == '__main__':
     # 5. HARDENING
     # Desactivamos debug para no exponer stack traces en producción.
     app.run(debug=False)
-
+```
+```
 ![snyk-update](/assets/img/2026-01-30-proyecto-ouroboros/snyk-update.png)
 > *"La seguridad no es algo estatico, es mas bien un ciclo continuo."*
