@@ -5,7 +5,7 @@ date: 2026-02-01
 categories: [Opinión, Linux, Cultura Hacker]
 tags: [linux, windows, open-source, career, reflection, ciberseguridad]
 image:
-  path: /assets/img/linux-odisea/hero.jpg
+  path: /assets/img/linux-odisea/linux-setup.png
   alt: Terminal Linux con código en ejecución
 ---
 
