@@ -15,7 +15,7 @@ image:
 
 El debate entre Windows y Linux suele ser circular, pasional y, a menudo, poco productivo. Ambos bandos esgrimen argumentos técnicos mientras ignoran el elefante en la habitación: que la mayoría de nuestras preferencias tecnológicas no son racionales, sino viscerales. Son el producto de años de condicionamiento, de caminos de menor resistencia, de inercias heredadas.
 
-No escribo esto para convencer a nadie de abandonar su sistema operativo, ni para avivar guerras santas tecnológicas. Escribo esto como una **bitácora alquímica** de mi propia transformación: de un adolescente que optimizaba registros en Windows 7 para exprimir 5 FPS más, a un profesional de la ciberseguridad que encontró en Linux no solo un sistema operativo, sino una filosofía de trabajo, una herramienta que respeta mi agencia.
+No escribo esto para convencer a nadie de abandonar su sistema operativo, ni para avivar guerras santas tecnológicas. Escribo esto como una **bitácora de iniciado** de mi propia transformación: de un adolescente que optimizaba registros en Windows 7 para exprimir 5 FPS más, a un profesional de la ciberseguridad que encontró en Linux no solo un sistema operativo, sino una filosofía de trabajo, una herramienta que respeta mi agencia.
 
 Hoy, en pleno 2026, mi veredicto es claro: para mi perfil técnico, creativo y profesional, Linux ha dejado de ser una alternativa exótica para convertirse en el estándar que define mi flujo de trabajo. Esta es mi historia, con sus fracasos, revelaciones y el doloroso proceso de desaprender para volver a aprender.
 
@@ -27,7 +27,7 @@ Hoy, en pleno 2026, mi veredicto es claro: para mi perfil técnico, creativo y p
 
 Mi viaje comenzó como el de muchos de mi generación: **Windows 98** y el salto cuántico a **Windows 7**. Conscientemente me salté las "ovejas negras" del ecosistema Microsoft (XP con sus vulnerabilidades legendarias, Vista con su torpeza proverbial), y mis recuerdos de esa época están teñidos de una nostalgia agridulce.
 
-Pasar de emular una Sega Genesis en mi vieja máquina a correr emuladores de PS1 y PS2, jugar *Counter-Strike*, los primeros *Call of Duty*... se sentía como **magia pura**. Para un adolescente con recursos limitados, Windows 7 era el universo entero contenido en una torre beige con 2GB de RAM.
+Pasar de emular una Sega Genesis en mi vieja máquina a correr emuladores de PS1 y PS2, jugar *Counter-Strike*, los primeros *Call of Duty*... se sentía como **magia pura**. Para un adolescente con recursos limitados, Windows 7 era el universo entero contenido en una notebook compaq con 2GB de RAM.
 
 ### La Falsa Sensación de Control
 
@@ -124,6 +124,7 @@ Y me llevé la sorpresa de mi vida.
 
 En alquimia, la **albedo** es la fase de purificación, donde emerge algo nuevo y refinado de las cenizas de lo viejo. Mi encuentro con el Linux moderno fue exactamente eso.
 
+[my setup actual, basado en arch](/assets/img/linux-odisea/my-setup.png)
 ### El Cambio de Paradigma: Linux Había Madurado (o Yo Había Madurado)
 
 No sé en qué momento exacto ocurrió el cambio — si fue Linux el que maduró o si fui yo quien finalmente alcanzó el nivel de comprensión necesario — pero el sistema que encontré ya no era ese monstruo hostil de mi adolescencia.
@@ -226,6 +227,8 @@ Además, **Proton ha madurado espectacularmente**. En 2026, el 80-90% de mi bibl
 ### 4. La Navaja Suiza: Linux para el Profesional de TI
 
 Aquí es donde Linux realmente brilla. Para uso profesional en tecnología, no hay competencia.
+
+[setup usando un tiling windows manager](/assets/img/linux-odisea/my-setup2.png)
 
 #### Ciberseguridad y Pentesting
 
