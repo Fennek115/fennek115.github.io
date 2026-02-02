@@ -124,7 +124,7 @@ Y me llevé la sorpresa de mi vida.
 
 En alquimia, la **albedo** es la fase de purificación, donde emerge algo nuevo y refinado de las cenizas de lo viejo. Mi encuentro con el Linux moderno fue exactamente eso.
 
-[my setup actual, basado en arch](/assets/img/linux-odisea/my-setup.png)
+![my setup actual, basado en arch](/assets/img/linux-odisea/my-setup.png)
 ### El Cambio de Paradigma: Linux Había Madurado (o Yo Había Madurado)
 
 No sé en qué momento exacto ocurrió el cambio — si fue Linux el que maduró o si fui yo quien finalmente alcanzó el nivel de comprensión necesario — pero el sistema que encontré ya no era ese monstruo hostil de mi adolescencia.
@@ -228,7 +228,7 @@ Además, **Proton ha madurado espectacularmente**. En 2026, el 80-90% de mi bibl
 
 Aquí es donde Linux realmente brilla. Para uso profesional en tecnología, no hay competencia.
 
-[setup usando un tiling windows manager](/assets/img/linux-odisea/my-setup2.png)
+![setup usando un tiling windows manager](/assets/img/linux-odisea/my-setup2.png)
 
 #### Ciberseguridad y Pentesting
 
@@ -453,7 +453,7 @@ El camino está ahí. Solo requiere el primer paso.
 
 ---
 
-*¿Tienes experiencias similares con Linux, o perspectivas diferentes? Me encantaría leer tus reflexiones en los comentarios.*
+*¿Tienes experiencias similares con Linux, o perspectivas diferentes? Me encantaría leer tus reflexiones, enviame un correo o contactame por alguna de mis redes.*
 
 ---
 
