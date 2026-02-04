@@ -492,4 +492,4 @@ El plomo no se convierte en oro en un instante mágico. Se refina gradualmente, 
 > - [Have I Been Pwned](https://haveibeenpwned.com/) → Verifica si tu email apareció en filtraciones  
 > - [Pwned Passwords](https://haveibeenpwned.com/Passwords) → Verifica si tu contraseña fue comprometida  
 
-¿Dudas? ¿Quieres compartir tu experiencia transmutando tu seguridad digital? Los comentarios están abiertos. Recuerda: no estás solo en este proceso. Somos una comunidad de aprendices en la gran obra del siglo XXI.
+Recuerda: no estás solo en este proceso.
