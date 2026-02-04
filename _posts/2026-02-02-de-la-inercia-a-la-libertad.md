@@ -25,7 +25,7 @@ Hoy, en pleno 2026, mi veredicto es claro: para mi perfil técnico, creativo y p
 
 ### Los Primeros Pasos: Windows como Puerta de Entrada
 
-Mi viaje comenzó como el de muchos de mi generación: **Windows 98** y el salto cuántico a **Windows 7**. Conscientemente me salté las "ovejas negras" del ecosistema Microsoft (XP con sus vulnerabilidades legendarias, Vista con su torpeza proverbial), y mis recuerdos de esa época están teñidos de una nostalgia agridulce.
+Mi viaje comenzó como el de muchos de mi generación: **Windows 98** y el salto cuántico a **Windows 7**. Inconscientemente me salté las "ovejas negras" del ecosistema Microsoft (XP con sus vulnerabilidades legendarias, Vista con su torpeza proverbial), y mis recuerdos de esa época están teñidos de una nostalgia agridulce.
 
 Pasar de emular una Sega Genesis en mi vieja máquina a correr emuladores de PS1 y PS2, jugar *Counter-Strike*, los primeros *Call of Duty*... se sentía como **magia pura**. Para un adolescente con recursos limitados, Windows 7 era el universo entero contenido en una notebook compaq con 2GB de RAM.
 
@@ -536,7 +536,7 @@ Para estos perfiles, Linux no es solo una alternativa. Es la **herramienta que s
 
 ### Mi Veredicto en 2026
 
-Después de 6 años usando Linux como sistema principal, estos son mis hallazgos:
+Después de años intentando usar Linux como sistema principal, y finalmente lo logre, estos son mis hallazgos:
 
 **Ventajas que no puedo abandonar:**
 - Privacidad y control total sobre mi sistema

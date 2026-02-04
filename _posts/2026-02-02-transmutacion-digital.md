@@ -22,8 +22,8 @@ En la tradición alquímica, existía un proceso fundamental conocido como *solv
 
 La ciberseguridad funciona de manera idéntica: no es un estado final que alcanzas comprando un antivirus o activando la autenticación de dos factores una sola vez. Es un **proceso continuo de destilación**, de pequeños hábitos que, sumados en el tiempo, transmutan tu vulnerabilidad en fortaleza. No se trata de alcanzar una perfección imposible, sino de refinar constantemente tus prácticas digitales hasta que la seguridad se vuelva tan natural como cerrar la puerta de tu casa al salir.
 
-> [!NOTE]
 > Este post no busca alarmarte sino empoderarte. No se trata de volverse paranoico, sino de desarrollar una ciudadanía digital consciente, del mismo modo que aprendiste a mirar a ambos lados antes de cruzar la calle.
+{: .prompt-info}
 
 ---
 
@@ -43,8 +43,8 @@ Cuando creas una cuenta nueva en cualquier sitio web, el gestor genera automáti
 ![Interfaz de Bitwarden mostrando la bóveda de contraseñas](/assets/img/2026-02-02-transmutacion-digital/bitwarden-vault.png)
 *La interfaz de Bitwarden es simple e intuitiva. Cada entrada guarda el sitio web, usuario y contraseña generada automáticamente.*
 
-> [!TIP]
 > **Tu primer acto de transmutación:** Instala Bitwarden o KeePassXC hoy mismo. Tienen apps móviles, extensiones de navegador y versión de escritorio. Empieza cambiando las contraseñas de tus tres cuentas más importantes: correo principal, banco y red social favorita. Una contraseña a la vez. No necesitas hacerlo todo en un día. La perfección es enemiga del progreso.
+{: .prompt-tip}
 
 **La Rotación de las Llaves Críticas**
 
@@ -54,8 +54,8 @@ Para tus cuentas críticas—banco, correo principal, plataforma de trabajo, ser
 
 Esto no es paranoia. Es el equivalente digital de cambiar las cerraduras de tu casa después de perder las llaves. Incluso si nadie las encontró, el simple hecho de que existiera la posibilidad justifica el pequeño esfuerzo preventivo. En el mundo digital, tus "llaves" pueden copiarse sin que tú lo notes—de ahí la rotación preventiva.
 
-> [!WARNING]
 > No confundas "rotar contraseñas críticas cada tres meses" con "cambiar todas tus contraseñas constantemente". Eso es imposible de mantener y contraproducente. Enfoca tu energía solo en las cinco a diez cuentas que realmente importan: aquellas que, si fueran comprometidas, te causarían daño financiero o personal significativo.
+{: .prompt-warning}
 
 ### Las Máscaras de Identidad: Alias de Correo Electrónico
 
@@ -75,8 +75,8 @@ Todos los correos llegan igualmente a tu bandeja real, pero ahora tienes control
 ![Diagrama de flujo de alias de correo](/assets/img/2026-02-02-transmutacion-digital/email-alias-diagram.png)
 *Tus alias actúan como máscaras: todos los correos llegan a tu bandeja real, pero el remitente nunca conoce tu dirección verdadera.*
 
-> [!WARNING]
 > Usa tu correo real solamente para servicios críticos: banco, gobierno, salud, impuestos. Para absolutamente todo lo demás, usa alias. Es como no dar tu número de teléfono personal a cualquier vendedor en la calle, sino una línea desechable que puedes cortar cuando quieras.
+{: .prompt-warning}
 
 ### Los Guardianes del Umbral: Navegadores y Extensiones
 
@@ -99,8 +99,8 @@ Piensa en uBlock Origin como el equivalente digital de cerrar las cortinas de tu
 ![Estadísticas de uBlock Origin](/assets/img/2026-02-02-transmutacion-digital/ublock-stats.png)
 *uBlock Origin muestra cuántos rastreadores, scripts y anuncios bloquea en cada página. Es revelador ver que sitios "normales" tienen 20-30 rastreadores intentando seguirte.*
 
-> [!TIP]
 > Si usas Firefox, Brave o LibreWolf, instala estas extensiones esenciales: **uBlock Origin** (bloqueador de rastreadores), **Bitwarden** (tu gestor de contraseñas) y **ClearURLs** (limpia parámetros de rastreo en los enlaces que compartes). Eso es todo. No necesitas veinte extensiones. Menos es más cuando se trata de superficie de ataque.
+{: .prompt-tip}
 
 ### Herramientas Específicas por Sistema Operativo
 
@@ -148,8 +148,8 @@ Tu teléfono sabe literalmente todo sobre ti: dónde estás en cada momento, con
 
 Para máximo control, considera instalar una ROM personalizada como **LineageOS** (sin servicios de Google) o **GrapheneOS** (si tienes un Pixel de Google, irónicamente el teléfono más seguro cuando le quitas todo lo de Google). Esto requiere conocimientos técnicos intermedios, pero la ganancia en privacidad es sustancial.
 
-> [!WARNING]
 > **Jamás hagas root a tu teléfono Android** a menos que realmente sepas lo que haces. El root rompe el modelo de seguridad de Android y deja tu dispositivo vulnerable. Apps que requieren root como AdAway o AFWall+ no valen el riesgo de seguridad que implican. Hay alternativas más seguras que no requieren root.
+{: .prompt-danger}
 
 ### El Centinela Nocturno: Bloqueo de Red y Monitoreo
 
@@ -174,8 +174,8 @@ Para teléfonos que ya no reciben actualizaciones oficiales, considera instalar 
 ![Cómo verificar parches de seguridad en Android](/assets/img/2026-02-02-transmutacion-digital/android-security-patch.png)
 *En Configuración → Acerca del teléfono → Actualizaciones del sistema puedes ver la fecha del último parche de seguridad. Si tiene más de 3-4 meses de antigüedad, tu dispositivo está vulnerable.*
 
-> [!TIP]
 > Ve ahora mismo a Configuración → Acerca del teléfono → Actualizaciones del sistema en tu Android. Fíjate en la fecha del último parche de seguridad. Si dice algo como "Parche de seguridad de octubre de 2024" y estamos en febrero de 2026, tu teléfono lleva más de un año sin recibir actualizaciones críticas. Es hora de considerar reemplazarlo o instalar una ROM alternativa.
+{: .prompt-tip}
 
 **Windows: El Problema de las Aplicaciones Independientes**
 
@@ -201,8 +201,8 @@ Sin embargo, si instalaste software manualmente—descargaste un `.deb` de un si
 
 La política de soporte varía por distribución. Ubuntu LTS (Long Term Support) recibe actualizaciones de seguridad durante cinco años. Debian estable tiene ciclos de dos a tres años. Distribuciones rolling release como Arch reciben actualizaciones continuas pero requieren más mantenimiento activo.
 
-> [!WARNING]
 > Nunca ignores las actualizaciones de seguridad en ningún sistema. No las postergues "hasta el fin de semana". No las desactives porque "reinician el computador". Esa ventana emergente molesta de actualización es tu sistema rogándote que cierres una puerta de seguridad que está abierta de par en par. Escúchala.
+{: .prompt-warning}
 
 **El Caso Especial de Software Crítico**
 
@@ -219,6 +219,38 @@ Flash Player ya no recibe soporte desde 2020 y debería estar completamente desi
 ## El Arte de la Calcinación: Higiene Digital Cotidiana
 
 Los alquimistas hablaban de la *calcinación* como el proceso de quemar las impurezas hasta que solo quede la ceniza pura. En términos digitales, esto se traduce en desarrollar un **olfato digital**: la capacidad de detectar el peligro antes de que te alcance, de quemar la basura antes de que contamine tu sistema.
+
+### El Eslabón Más Débil: La Ingeniería Social
+
+Antes de hablar de tecnología, necesitamos entender una verdad fundamental: la mayoría de los ataques digitales exitosos no explotan vulnerabilidades en el código sino vulnerabilidades en la psique humana. Los hackers más efectivos no son necesariamente los mejores programadores, sino los mejores manipuladores psicológicos.
+
+La ingeniería social es el arte oscuro de hackear humanos en lugar de sistemas. No importa cuán fuertes sean tus contraseñas ni cuán actualizado esté tu software si un atacante puede convencerte de entregarle voluntariamente las llaves del reino. Y los atacantes son maestros en explotar nuestras debilidades psicológicas más profundas.
+
+**Las Cuatro Palancas Emocionales**
+
+Los ingenieros sociales manipulan principalmente cuatro emociones que cortocircuitan nuestro pensamiento crítico:
+
+**El Miedo:** "Tu cuenta será bloqueada en 24 horas si no actúas ahora." El miedo a perder algo valioso—tu dinero, tu acceso, tu identidad—nos hace actuar impulsivamente sin pensar. Es el mismo mecanismo que hace que saltes cuando ves una sombra que parece una serpiente. Reaccionas primero, piensas después. Los estafadores cuentan con esto.
+
+**La Urgencia Artificial:** "¡Última oportunidad! Esta oferta expira en 10 minutos." La urgencia elimina el tiempo de deliberación. No puedes consultar con nadie, no puedes investigar, no puedes pensar con calma. Debes decidir AHORA. Esta presión temporal es deliberada—si tuvieras tiempo para pensar, probablemente detectarías la estafa.
+
+**La Autoridad:** Mensajes que parecen venir de tu banco, de Microsoft, del gobierno, de tu jefe. Tenemos un respeto instintivo por la autoridad que viene de millones de años de evolución social. Cuando alguien que parece tener poder nos dice que hagamos algo, nuestra tendencia natural es obedecer sin cuestionar. Los estafadores se visten con los uniformes digitales de la autoridad.
+
+**La Codicia:** "Has ganado un premio de $5,000. Haz clic aquí para reclamarlo." Si algo parece demasiado bueno para ser verdad, probablemente lo es. Pero la promesa de dinero fácil, premios inesperados, oportunidades únicas puede cegarnos temporalmente al sentido común. Queremos que sea verdad, entonces nos permitimos creer.
+
+Los ataques más sofisticados combinan múltiples palancas: un mensaje urgente (tienes solo 2 horas), con autoridad aparente (viene de tu banco), apelando al miedo (tu cuenta fue comprometida), y a veces incluso con incentivo (te devolveremos el dinero robado si actúas rápido).
+
+**La Defensa: Pausar y Verificar**
+
+La mejor defensa contra la ingeniería social no es tecnológica sino psicológica: desarrollar el hábito de **pausar ante cualquier solicitud inesperada de acción**. Especialmente cuando sientes una emoción fuerte—miedo, urgencia, excitación.
+
+Esa sensación de "necesito hacer esto AHORA" es exactamente la señal de que debes detenerte y verificar. Toma tres respiraciones profundas. Pregúntate: ¿Por qué este mensaje me está generando esta emoción? ¿Quién se beneficia de que yo actúe sin pensar?
+
+Recuerda: las empresas legítimas nunca crean urgencia artificial para acciones de seguridad. Tu banco no te dará dos horas para "verificar tu cuenta o será cerrada". El gobierno no te pedirá información sensible por correo electrónico. Microsoft no te llamará por teléfono para decirte que tu computador tiene un virus.
+
+Cuando recibas cualquier solicitud inesperada—especialmente si involucra dinero, contraseñas, o información personal—aplica esta regla simple: **No respondas directamente. Contacta a la organización tú mismo usando información de contacto que ya conoces y confías.** Si tu "banco" te envió ese correo, llama al número que está en tu tarjeta de débito, no al número en el correo.
+
+La ingeniería social funciona porque somos humanos, y ser humano implica tener emociones, confiar en otros, y a veces tomar atajos mentales. No te culpes si alguna vez caíste en una estafa—los profesionales detrás de estos ataques son muy, muy buenos en lo que hacen. Pero ahora que conoces las palancas que intentan manipular, puedes desarrollar resistencia a ellas.
 
 ### La Inspección del Enlace: Ver Antes de Tocar
 
@@ -241,8 +273,8 @@ En su lugar, sigue estos pasos de purificación:
 ![INCIBE](/assets/img/2026-02-02-transmutacion-digital/phishing-url-comparison.png)
 *Aprende a identificar URLs maliciosas: los estafadores usan dominios casi idénticos que parecen legítimos a primera vista. Fíjate en los detalles: guiones extras, dominios incorrectos (.net en lugar de .cl), ortografía sospechosa.*
 
-> [!WARNING]
 > **Ningún banco, servicio o empresa legítima te pedirá tu contraseña por correo, WhatsApp, mensaje de texto o llamada telefónica.** Nunca. Jamás. Cero excepciones. Si te lo piden, es una estafa con cien por ciento de certeza. No existen excepciones a esta regla.
+{: .prompt-danger}
 
 ### La Regla del Mínimo Privilegio: Dar lo Menos Posible
 
@@ -276,8 +308,8 @@ Actualiza especialmente tu gestor de contraseñas, tu navegador, y cualquier sof
 
 **Cuarta tarea: Revisa tus extractos bancarios y de tarjetas.** Un cargo pequeño y extraño de dos dólares puede ser un test de tarjeta robada. Los criminales hacen cargos mínimos para verificar que la tarjeta funciona antes de hacer compras grandes. Si ves algo que no reconoces, repórtalo inmediatamente.
 
-> [!TIP]
 > Pon un recordatorio mensual en tu calendario llamado "Higiene Digital" o "Revisión de Seguridad". Quince minutos al mes pueden ahorrarte semanas de sufrimiento limpiando el desastre de una cuenta comprometida. Hazlo el primer día de cada mes, junto con pagar las cuentas. Conviértelo en rutina.
+{: .prompt-tip}
 
 ### La Doble Autenticación: El Segundo Candado
 
@@ -292,8 +324,8 @@ Activa 2FA en absolutamente todo lo que lo soporte, especialmente:
 - Tu gestor de contraseñas
 - Cualquier servicio que contenga información personal sensible
 
-> [!WARNING]
 > Evita usar SMS (mensajes de texto) como segundo factor cuando tengas opciones mejores. Los SMS pueden ser interceptados mediante ataques de SIM swapping. Prioriza apps como Authy o llaves de seguridad físicas como YubiKey cuando sea posible.
+{: .prompt-warning}
 
 ### El Observatorio Alquímico: Mantenerse Informado
 
@@ -332,8 +364,8 @@ La función más valiosa de Have I Been Pwned es el servicio de notificaciones: 
 
 También tienen Pwned Passwords, donde puedes verificar si una contraseña específica ha aparecido en brechas de seguridad anteriores. Si tu contraseña está en esa base de datos, significa que está literalmente en las listas que usan los hackers para sus ataques automatizados. Cámbiala inmediatamente.
 
-> [!TIP]
 > **Ritual semanal de información:** Cada domingo por la mañana, mientras tomas café, dedica quince minutos a esta rutina: primero, revisa los titulares de WeLiveSecurity de la semana. Segundo, si actualizaste algún software importante recientemente (navegador, sistema operativo, aplicaciones críticas), busca el nombre del programa en NVD para verificar si existen vulnerabilidades conocidas en versiones anteriores que justifiquen la actualización. Tercero, cada tres meses, verifica tu correo principal en Have I Been Pwned para asegurarte de que no ha aparecido en nuevas filtraciones. Estos quince minutos pueden ahorrarte semanas de dolor de cabeza.
+{: .prompt-tip}
 
 **El Conocimiento como Escudo**
 
@@ -395,7 +427,6 @@ El plomo no se convierte en oro en un instante mágico. Se refina gradualmente, 
 
 ---
 
-> [!NOTE]
 > **Recursos Mencionados en Este Post:**  
 >  
 > **Gestores de Contraseñas:**  
