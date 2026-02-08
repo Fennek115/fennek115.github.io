@@ -8,8 +8,8 @@ tags: [opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfi
 image:
   path: /assets/img/2026-02-08-vigilancia-permanente/header-surveillance.jpg
   alt: Técnicas avanzadas de evasión y OpSec en la era de la vigilancia masiva
-  #math: true
-#mermaid: true
+math: true
+mermaid: true
 ---
 
 ## Abstract
