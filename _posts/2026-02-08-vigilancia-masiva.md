@@ -4,12 +4,12 @@ title: "Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STE
 date: 2026-02-08 16:00:00 -0300
 categories: [Seguridad Ofensiva, OpSec]
 tags: [opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
-pin: true
+#pin: true
 image:
   path: /assets/img/2026-02-08-vigilancia-permanente/header-surveillance.jpg
   alt: Técnicas avanzadas de evasión y OpSec en la era de la vigilancia masiva
-math: true
-mermaid: true
+  #math: true
+#mermaid: true
 ---
 
 ## Abstract
