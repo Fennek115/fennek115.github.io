@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STELLARWIND"
-date: 2026-02-08 16:00:00 -0300
+date: 2026-02-08
 categories: [Seguridad Ofensiva, OpSec]
 tags: [opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
 #pin: true
