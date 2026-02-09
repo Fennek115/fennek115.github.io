@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STELLARWIND"
+title: "WIP-Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STELLARWIND"
 date: 2026-02-08
 categories: [Seguridad Ofensiva, OpSec]
-tags: [opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
+tags: [WIP, opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
 #pin: true
 image:
   path: /assets/img/2026-02-08-vigilancia-permanente/header-surveillance.jpg
