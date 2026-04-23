@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "WIP-Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STELLARWIND"
+title: "Vigilancia Permanente: OpSec Avanzado, Evasión Wi-Fi y Lecciones de STELLARWIND"
 date: 2026-02-08
 categories: [Seguridad Ofensiva, OpSec]
-tags: [WIP, opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
+tags: [opsec, wifi-security, mac-randomization, surveillance, nsa, snowden, exfiltration, anonymity, wardriving]
 #pin: true
 image:
   path: /assets/img/2026-02-08-vigilancia-permanente/header-surveillance.jpg
   alt: Técnicas avanzadas de evasión y OpSec en la era de la vigilancia masiva
-math: true
 mermaid: true
 ---
 
@@ -31,17 +30,12 @@ La arquitectura de STELLARWIND se basaba en tres pilares tecnológicos fundament
 **Pillar 1: Upstream Collection**
 Intercepción directa del tráfico de internet en los puntos de interconexión de redes troncales (IX Points). La NSA instaló splitters ópticos en instalaciones de telecomunicaciones (caso documentado: Room 641A en AT&T San Francisco) que copiaban todo el tráfico que pasaba por esos nodos. Esto no era intercepción selectiva—era copia literal de cada paquete que atravesaba esos puntos.
 
-```
-┌─────────────┐         ┌──────────────┐         ┌─────────────┐
-│   Origen    │────────▶│ Splitter     │────────▶│  Destino    │
-│  (Usuario)  │         │ Óptico       │         │             │
-└─────────────┘         └──────────────┘         └─────────────┘
-                               │
-                               ▼
-                        ┌──────────────┐
-                        │ NSA Storage  │
-                        │ (XKEYSCORE)  │
-                        └──────────────┘
+```mermaid
+flowchart LR
+    U["Origen (Usuario)"] -->|Tráfico| S[Splitter Óptico]
+    S -->|Paso directo| D[Destino]
+    S -->|Copia silenciosa| X["NSA Storage (XKEYSCORE)"]
+    style X fill:#1a1a2e,stroke:#e63946,color:#eee
 ```
 
 **Pillar 2: PRISM - Direct Access to Corporate Infrastructure**
@@ -123,7 +117,15 @@ Tu teléfono, aunque tenga GPS desactivado, continuamente escanea Wi-Fi buscando
 
 Esto es lo que Snowden llama "turning your device into a tracking beacon". No es paranoia cuando documentos clasificados de GCHQ (agencia británica) revelan programas como "KARMA POLICE" que hacen exactamente esto—rastrear movimientos de personas mediante scanning pasivo de sus probe requests Wi-Fi.
 
-![Wi-Fi Location Fingerprinting](/assets/img/2026-02-08-vigilancia-permanente/wifi-location-fingerprinting.png)
+```mermaid
+flowchart TD
+    Dev["Dispositivo\n(GPS desactivado)"]
+    Dev -->|"Probe: 'CasaJuan_WiFi' · RSSI -45 dBm"| AP1[AP A]
+    Dev -->|"Probe: 'Starbucks_Central' · RSSI -72 dBm"| AP2[AP B]
+    Dev -->|"Probe: 'GymDowntown' · RSSI -68 dBm"| AP3[AP C]
+    AP1 & AP2 & AP3 --> T["Triangulación → Ubicación exacta\nsin necesidad de GPS"]
+    style T fill:#e63946,color:#fff
+```
 *Cómo la combinación de SSID probe requests y RSSI (signal strength) permite triangulación precisa sin GPS.*
 
 ---

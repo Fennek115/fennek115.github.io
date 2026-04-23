@@ -70,6 +70,9 @@ Con un alias de correo, creas direcciones desechables para cada servicio:
 - `tienda-ropa-2k9@aleeas.com` para esa tienda de ropa que encontraste en Instagram
 - `newsletter-tech-m3p@aleeas.com` para la newsletter de tecnología
 
+> **Nota sobre proveedores:** SimpleLogin fue adquirido por Proton (los creadores de ProtonMail) y mantiene su plan gratuito. AnonAddy cambió su nombre a **addy.io** en 2023—si buscas el nombre antiguo, ya no encontrarás el sitio.
+{: .prompt-info}
+
 Todos los correos llegan igualmente a tu bandeja real, pero ahora tienes control. Si empiezas a recibir spam en `tienda-ropa-2k9`, sabes exactamente quién filtró o vendió tus datos, y puedes desactivar solo ese alias sin cambiar tu correo verdadero ni avisar a todos tus contactos.
 
 ![Diagrama de flujo de alias de correo](/assets/img/2026-02-02-transmutacion-digital/email-alias-diagram.png)
@@ -101,6 +104,23 @@ Piensa en uBlock Origin como el equivalente digital de cerrar las cortinas de tu
 
 > Si usas Firefox, Brave o LibreWolf, instala estas extensiones esenciales: **uBlock Origin** (bloqueador de rastreadores), **Bitwarden** (tu gestor de contraseñas) y **ClearURLs** (limpia parámetros de rastreo en los enlaces que compartes). Eso es todo. No necesitas veinte extensiones. Menos es más cuando se trata de superficie de ataque.
 {: .prompt-tip}
+
+### El Canal Cifrado: VPNs (con Matices)
+
+Los VPNs son quizá la herramienta de privacidad más malentendida del mundo. Un VPN redirige todo tu tráfico a través de un servidor intermediario: el sitio web que visitas ve la IP del servidor VPN, no la tuya. Tu ISP ve que te conectas al VPN, pero no puede leer el contenido.
+
+**Cuándo sí tienen sentido:**
+- Redes públicas no confiables (aeropuertos, cafeterías, hoteles): un VPN cifra tu tráfico ante otros usuarios de esa red
+- Evitar bloqueos geográficos de contenido
+- Ocultar tu actividad de navegación a tu ISP local
+
+**Cuándo *no* te protegen:**
+- Contra rastreo publicitario (Google te sigue viendo porque iniciaste sesión en Google)
+- Contra malware ya instalado en tu sistema
+- Como anonimato total—el proveedor VPN tiene acceso completo a tu tráfico
+
+> Un VPN solo desplaza la confianza: de tu ISP al proveedor VPN. Si el VPN guarda logs, esos logs te identifican. Por eso importa elegir uno con política de no-logs **verificada por auditorías independientes**. Las opciones más respetadas son **Mullvad** (acepta pago en efectivo, sin cuenta de correo requerida) y **ProtonVPN** (plan gratuito disponible, empresa suiza con fuerte historial de privacidad). Evita VPNs gratuitos desconocidos—si el producto no cuesta nada, tú eres el producto.
+{: .prompt-warning}
 
 ### Herramientas Específicas por Sistema Operativo
 
@@ -134,9 +154,9 @@ Tu teléfono sabe literalmente todo sobre ti: dónde estás en cada momento, con
 
 **F-Droid** es una tienda de aplicaciones alternativa que solo contiene software de código abierto y sin rastreadores. Ahí encuentras versiones limpias de apps cotidianas:
 
-- **Teclados:** Tu teclado ve literalmente todo lo que escribes—contraseñas, mensajes íntimos, búsquedas médicas. **AnySoftKeyboard** u **OpenBoard** son teclados de código abierto donde todo lo que escribes permanece exclusivamente en tu dispositivo. Nunca se sube a la nube para "mejorar predicciones".
+- **Teclados:** Tu teclado ve literalmente todo lo que escribes—contraseñas, mensajes íntimos, búsquedas médicas. **AnySoftKeyboard** y **HeliBoard** (fork activo de OpenBoard) son teclados de código abierto donde todo lo que escribes permanece exclusivamente en tu dispositivo. Nunca se sube a la nube para "mejorar predicciones".
 
-- **Navegador:** **Mull** es una versión de Firefox específica para Android, endurecida con las mismas configuraciones de privacidad que LibreWolf. **Bromite** es similar pero basado en Chromium.
+- **Navegador:** **Mull** es una versión de Firefox específica para Android, endurecida con las mismas configuraciones de privacidad que LibreWolf. **Cromite** (fork mantenido de Bromite) es la alternativa basada en Chromium—usa Cromite, no Bromite, que fue abandonado en 2022.
 
 - **Mensajería:** **Signal** es el estándar dorado para mensajería cifrada. A diferencia de WhatsApp (que pertenece a Meta/Facebook), Signal no recolecta metadatos. No sabe con quién hablas, cuándo, ni cuántos mensajes envías. Solo almacena tu número de teléfono y cuándo te registraste por última vez.
 
@@ -315,7 +335,10 @@ Actualiza especialmente tu gestor de contraseñas, tu navegador, y cualquier sof
 
 La autenticación de dos factores (2FA) es como tener dos candados en tu puerta en lugar de uno. Incluso si alguien roba tu contraseña, no puede entrar sin el segundo factor—usualmente un código temporal que solo tú recibes en tu teléfono.
 
-**Authy** es la mejor app para manejar códigos de 2FA en Android e iOS. Es más robusta que Google Authenticator porque respalda tus códigos en la nube (cifrados con tu contraseña maestra) y funciona en múltiples dispositivos. Si pierdes tu teléfono, no pierdes acceso a todas tus cuentas.
+Para Android, **Aegis Authenticator** es hoy la mejor opción: código abierto, totalmente offline (tus códigos nunca salen de tu dispositivo), y permite exportar respaldos cifrados. Para quienes usan iOS y Android, **2FAS** es una alternativa multiplataforma con código abierto.
+
+> Evita **Authy**. En julio de 2024 sufrió un breach que expuso los números de teléfono de 33 millones de usuarios. Aunque las apps móviles siguen funcionando, la comunidad se alejó de él por no ser código abierto y por el historial de incidentes de seguridad.
+{: .prompt-danger}
 
 Activa 2FA en absolutamente todo lo que lo soporte, especialmente:
 - Tu correo principal (porque es la llave maestra de todo lo demás)
@@ -324,7 +347,7 @@ Activa 2FA en absolutamente todo lo que lo soporte, especialmente:
 - Tu gestor de contraseñas
 - Cualquier servicio que contenga información personal sensible
 
-> Evita usar SMS (mensajes de texto) como segundo factor cuando tengas opciones mejores. Los SMS pueden ser interceptados mediante ataques de SIM swapping. Prioriza apps como Authy o llaves de seguridad físicas como YubiKey cuando sea posible.
+> Evita usar SMS (mensajes de texto) como segundo factor cuando tengas opciones mejores. Los SMS pueden ser interceptados mediante ataques de SIM swapping. Prioriza apps TOTP como Aegis o 2FAS, o llaves de seguridad físicas como YubiKey cuando sea posible.
 {: .prompt-warning}
 
 ### El Observatorio Alquímico: Mantenerse Informado
@@ -434,18 +457,22 @@ El plomo no se convierte en oro en un instante mágico. Se refina gradualmente, 
 > - [KeePassXC](https://keepassxc.org) → Gratuito, código abierto, completamente offline  
 >  
 > **Alias de Correo:**  
-> - [SimpleLogin](https://simplelogin.io) → Freemium, integración fácil  
-> - [AnonAddy](https://anonaddy.com) → Código abierto, autoalojable  
+> - [SimpleLogin](https://simplelogin.io) → Freemium, adquirido por Proton, integración fácil  
+> - [addy.io](https://addy.io) → Código abierto, autoalojable (antes AnonAddy)  
 >  
 > **Navegadores Privados:**  
 > - [Brave](https://brave.com) → Multiplataforma, basado en Chromium  
 > - [LibreWolf](https://librewolf.net) → Basado en Firefox, máxima privacidad  
 > - [Mull](https://f-droid.org/packages/us.spotco.fennec_dos) → Android, desde F-Droid  
-> - [Bromite](https://www.bromite.org) → Android, basado en Chromium  
+> - [Cromite](https://github.com/uazo/cromite) → Android, fork activo de Bromite basado en Chromium  
 >  
 > **Extensiones de Navegador:**  
 > - [uBlock Origin](https://ublockorigin.com) → Bloqueador universal  
 > - [ClearURLs](https://clearurls.xyz) → Limpia parámetros de rastreo  
+>  
+> **VPNs con Política No-Logs Auditada:**  
+> - [Mullvad](https://mullvad.net) → Sin cuenta de correo, acepta pago en efectivo  
+> - [ProtonVPN](https://protonvpn.com) → Plan gratuito disponible, empresa suiza  
 >  
 > **Herramientas Windows:**  
 > - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) → Desactiva telemetría  
@@ -469,7 +496,7 @@ El plomo no se convierte en oro en un instante mágico. Se refina gradualmente, 
 > - [F-Droid](https://f-droid.org) → Tienda de apps de código abierto  
 > - [Aurora Store](https://auroraoss.com) → Cliente alternativo de Play Store  
 > - [AnySoftKeyboard](https://anysoftkeyboard.github.io) → Teclado privado  
-> - [OpenBoard](https://github.com/openboard-team/openboard) → Teclado simple  
+> - [HeliBoard](https://github.com/Helium314/HeliBoard) → Teclado simple, fork activo de OpenBoard  
 > - [Signal](https://signal.org) → Mensajería cifrada  
 > - [Fossify Gallery](https://github.com/FossifyOrg/Gallery) → Galería de fotos  
 > - [Material Files](https://github.com/zhanghai/MaterialFiles) → Gestor de archivos  
@@ -479,7 +506,9 @@ El plomo no se convierte en oro en un instante mágico. Se refina gradualmente, 
 > - [GrapheneOS](https://grapheneos.org) → Máxima seguridad (solo Pixel)  
 >  
 > **Autenticación de Dos Factores:**  
-> - [Authy](https://authy.com) → Multiplataforma, respaldo en nube  
+> - [Aegis Authenticator](https://getaegis.app) → Android, código abierto, offline  
+> - [2FAS](https://2fas.com) → Android e iOS, código abierto  
+> - [YubiKey](https://www.yubico.com) → Llave física de seguridad FIDO2  
 >  
 > **Noticias de Ciberseguridad (Español):**  
 > - [WeLiveSecurity](https://www.welivesecurity.com/es/) → Blog de ESET, lenguaje accesible, enfoque educativo  
