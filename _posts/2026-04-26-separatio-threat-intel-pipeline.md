@@ -626,6 +626,34 @@ Para ver un ejemplo del output final, aquí hay un informe real generado el 26 d
 
 ---
 
+## ¿Es Esto Realmente CTI?
+
+Vale la pena ser honesto sobre esto. La industria usa el término "Cyber Threat Intelligence" con bastante libertad, y Separatio no es la excepción al llamarse pipeline de CTI.
+
+El ciclo de inteligencia establece una jerarquía clara:
+
+- **Threat Data** — hechos crudos sin procesar: IOCs en bruto, feeds RSS
+- **Threat Information** — datos procesados con contexto: boletines NVD, resúmenes MSRC
+- **Threat Intelligence** — analizado, correlado, accionable y **adaptado al entorno específico** de una organización
+
+El elemento que distingue *intelligence* de *information* es precisamente ese último punto: el verdadero CTI sabe qué activos tiene tu organización, en qué sector operas, cuál es tu perfil de riesgo. Separatio no sabe nada de eso.
+
+Otras limitaciones honestas:
+
+- **Las fuentes son 100% públicas** — sin inteligencia cerrada, sin dark web, sin feeds de pago
+- **El análisis es automatizado sobre información pública**, no investigación original de un analista con contexto propietario
+- **No hay correlación con tu entorno** — un CVE en Windows Server puede ser crítico para ti o irrelevante dependiendo de tu stack, y Separatio no distingue
+
+Lo que Separatio hace con más precisión es lo que herramientas como **MISP** u **OpenCTI** hacen en su capa de ingestión: agregar, normalizar, enriquecer y estructurar información de múltiples fuentes. A ese tipo de plataformas se les llama **Threat Intelligence Platforms (TIP)**, no generadores de CTI.
+
+Una descripción más honesta sería:
+
+> *Pipeline automatizado de agregación y briefing de threat intelligence* — o simplemente, un **automated threat briefing system**.
+
+El valor real no es producir inteligencia original. Es eliminar el trabajo manual de leer 260 artículos al día, priorizar por severidad y corroboración cruzada, y entregar algo accionable antes de las 8am. Para un equipo pequeño o un analista individual sin acceso a plataformas comerciales de CTI, eso ya es suficiente.
+
+---
+
 ## Reflexión Final
 
 Lo más sorprendente de este proyecto no fue lo técnico. Fue confirmar que los modelos open source de 4B parámetros ya son suficientemente buenos para **extracción estructurada de información**, siempre que el prompt sea preciso y la tarea no requiera razonamiento creativo.
