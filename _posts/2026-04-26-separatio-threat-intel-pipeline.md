@@ -620,6 +620,10 @@ Lo más interesante que podría añadirse: un módulo de **correlación semánti
 
 El repositorio está en: [github.com/Fennek115/separatio](https://github.com/Fennek115/separatio)
 
+Para ver un ejemplo del output final, aquí hay un informe real generado el 26 de abril de 2026 con OpenAI (259 artículos, modo multi-fase):
+
+[Descargar informe de ejemplo (PDF)](https://github.com/Fennek115/separatio/releases/download/demo/threat-briefing-2026-04-26.pdf)
+
 ---
 
 ## Reflexión Final

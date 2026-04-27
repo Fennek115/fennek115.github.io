@@ -16,7 +16,7 @@ timezone: America/Santiago
 
 title: Franco Castro Chavarria # the main title
 
-tagline: SysAdmin, OpSec, Hacking & Linux Lab # it will display as the subtitle
+tagline: Entusiasta de Linux, el opensource y la ciberseguridad # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Bitácora de ciberseguridad, experimentos de hacking ético y cosas relacionadas con Linux.
