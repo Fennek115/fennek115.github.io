@@ -23,7 +23,7 @@ También documento los **8 errores reales** que tuve durante el deploy — desde
 ## Índice
 
 1. [Filosofía de diseño: Relay vs Redirector](#1-filosofía-de-diseño-relay-vs-redirector)
-2. [Nomenclatura: Magnum Opus como sistema de naming](#2-nomenclatura-magnum-opus-como-sistema-de-naming)
+2. [Nomenclatura: Conceptos alquimicos como sistema de naming](#2-nomenclatura-conceptos-alquimicos-como-sistema-de-naming)
 3. [Inventario de recursos](#3-inventario-de-recursos)
 4. [Fase 1 — Oracle Cloud VMs + WireGuard de gestión](#4-fase-1--oracle-cloud-vms--wireguard-de-gestión)
 5. [Fase 2 — Sliver C2 en Proxmox](#5-fase-2--sliver-c2-en-proxmox)
