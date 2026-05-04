@@ -10,24 +10,6 @@ image:
 mermaid: true
 ---
 
-> *"Elige redención o reinvención; ¿religión o ciencia?*
-> *Elige la razón o la prisión para la inteligencia*
-> *Elige, ¿mentira piadosa o verdad dolorosa?*
-> *Diferencia, libertad de la seguridad forzosa...*
-> *Elige, eres prisionero del destino*
-> *O libre del recuerdo ya pasado*
-> *¡Di no! A todo lo acordado, rompe con las reglas*
-> *Y con lo establecido mantente apartado*
->
-> *En el centro del todo al filo del placer*
-> *Y el pecado dando paso a lo prohibido*
-> *Vivir de lo aprendido o morir habiéndolo intentado*
-> *¿Estás vivo? Muere por demostrarlo"*
->
-> — **Ozelot**
-
----
-
 ## Abstract
 
 Este artículo documenta la construcción completa de **Vulpine Marrow**: una infraestructura de Comando y Control (C2) red team multicapa construida sobre recursos cloud gratuitos, hardware doméstico y protocolos open source. El stack final conecta un operador en WSL con un servidor Sliver C2 en Proxmox, enrutando tráfico de implants a través de Cloudflare como relay y Nginx en Oracle Cloud como redirector de Capa 7, todo dentro de túneles WireGuard cifrados.
@@ -107,9 +89,9 @@ WireGuard ya usa ChaCha20-Poly1305 con intercambio de claves Noise Protocol. Añ
 
 ---
 
-## 2. Nomenclatura: Magnum Opus como sistema de naming
+## 2. Nomenclatura: Conceptos alquimicos como sistema de naming
 
-Los nombres internos siguen la lógica del **Magnum Opus** alquímico — el proceso de transformación espiritual y material en cuatro fases: Nigredo, Albedo, Citrinitas, Rubedo. Fusionado con la estética Skullfox del proyecto.
+Los nombres internos siguen la lógica de textos esotericos — el proceso de transformación alquimica en cuatro fases: Nigredo, Albedo, Citrinitas, Rubedo. Es solo por estetica y darle algo de personalidad a un proyecto a priori tecnico y aburrido (no es mi caso, obvio).
 
 ![Logo Vulpine Marrow](/assets/img/2026-05-03-vulpine-marrow-c2-infra/vulpinemarrowlogosquare.png){: width="200" .right}
 
@@ -415,7 +397,7 @@ _Bidireccional confirmado: Synapse → Proxmox_
 En el host Proxmox, usar el helper script de tteck para Debian VM:
 
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/debian-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/debian-13-vm.sh)"
 ```
 
 **Parámetros elegidos en el wizard:**
